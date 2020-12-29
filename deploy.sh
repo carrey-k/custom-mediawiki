@@ -1,2 +1,2 @@
-./apply node-exporter-deployment.yaml down
-./apply node-exporter-deployment.yaml up
+./apply docker-compose.yml down
+./apply docker-compose.yml up
