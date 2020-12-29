@@ -1,9 +1,0 @@
-#!/bin/bash
-set -a
-source .env
-set +a
-eval "cat <<EOF
-$(<$1)
-EOF
-" | docker-compose -f -
-
